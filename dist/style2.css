@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "AbrilFatface-Regular";
+    src: url(/assets/fonts/AbrilFatface-Regular.ttf);
+}
+@font-face{
+    font-family: "BreeSerif-Regular";
+    src: url(/assets/fonts/BreeSerif-Regular.ttf)
+}
+h1,h2,h3,h4,h6,h5{
+    font-family: "AbrilFatface-Regular";
+}
+
+p,small{
+    font-family: "BreeSerif-Regular";
+}

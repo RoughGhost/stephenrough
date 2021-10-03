@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/apple-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/aos-master/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/dist/style2.css" />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <title>The Power Room</title>
+  </head>
+  <body class="text-gray-800 antialiased">
+    <!--============================= THE NAV SECTION =====================================-->
+    <nav
+      class="
+        top-0
+        absolute
+        z-50
+        w-full
+        flex flex-wrap
+        items-center
+        justify-between
+        px-2
+        py-3
+      "
+    >
+      <div
+        class="
+          container
+          px-4
+          mx-auto
+          flex flex-wrap
+          items-center
+          justify-between
+        "
+      >
+        <div
+          class="
+            w-full
+            relative
+            flex
+            justify-between
+            lg:w-auto lg:static lg:block lg:justify-start
+          "
+        >
+          <a
+            class="
+              text-lg
+              font-bold
+              leading-relaxed
+              inline-block
+              mr-4
+              py-2
+              whitespace-nowrap
+              uppercase
+              text-white
+            "
+            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+            >Estelle Yoga </a
+          ><button
+            class="
+              cursor-pointer
+              text-xl
+              leading-none
+              px-3
+              py-1
+              border border-solid border-transparent
+              rounded
+              bg-transparent
+              block
+              lg:hidden
+              outline-none
+              focus:outline-none
+            "
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+          >
+            <i class="text-white fa fa-bars"></i>
+          </button>
+        </div>
+        <div
+          class="
+            lg:flex
+            flex-grow
+            items-center
+            bg-white
+            lg:bg-transparent lg:shadow-none
+            hidden
+          "
+          id="example-collapse-navbar"
+        >
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <!--================== ICON 1 ======================-->
+            <li class="flex items-center">
+              <a
+                class="
+                  lg:text-white lg:hover:text-gray-300
+                  text-gray-800
+                  px-3
+                  py-4
+                  lg:py-2
+                  flex
+                  items-center
+                  text-xs
+                  uppercase
+                  font-bold
+                "
+                href="#pablo"
+                ><i class="text-blue-300 fa fa-facebook text-lg leading-lg"></i
+                ><span class="lg:hidden inline-block ml-2">Share</span></a
+              >
+            </li>
+            <!--========================== ICON 2=================================-->
+            <li class="flex items-center">
+              <a
+                class="
+                  lg:text-white lg:hover:text-gray-300
+                  text-gray-800
+                  px-3
+                  py-4
+                  lg:py-2
+                  flex
+                  items-center
+                  text-xs
+                  uppercase
+                  font-bold
+                "
+                href="#pablo"
+                ><i class="text-blue-300 fa fa-twitter text-lg leading-lg"></i
+                ><span class="lg:hidden inline-block ml-2">Tweet</span></a
+              >
+            </li>
+            <!--========================== ICON 3 ================================-->
+            <li class="flex items-center">
+              <a
+                class="
+                  lg:text-white lg:hover:text-gray-300
+                  text-gray-800
+                  px-3
+                  py-4
+                  lg:py-2
+                  flex
+                  items-center
+                  text-xs
+                  uppercase
+                  font-bold
+                "
+                href="#pablo"
+                ><i class="text-blue-300 fa fa-linkedin text-lg leading-lg"></i
+                ><span class="lg:hidden inline-block ml-2">Profile</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--========================= MAIN ================================-->
+    <main>
+      <div
+        class="
+          relative
+          pt-16
+          pb-32
+          flex
+          content-center
+          items-center
+          justify-center
+        "
+        style="min-height: 85vh"
+      >
+        <div
+          class="absolute top-0 w-full h-full bg-center bg-cover"
+          style="
+            background-image: url('/assets/img/carl-barcelo-hHzzdVQnkn0-unsplash.jpg');
+          "
+        >
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-75 bg-black"
+          ></span>
+        </div>
+        <div class="container relative mx-auto" data-aos="fade-in">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div class="pr-12">
+                <h1 class="text-white font-semibold text-5xl">
+                  House of <span class="text-blue-300">Yoga</span>
+                </h1>
+                <p class="mt-4 text-lg text-gray-300 mb-5">
+                  Welcome to the House of Yoga, Where you can get the Practice
+                  all the forms of yoga without limitation. And also it brings
+                  out the best in you.
+                </p>
+                <a
+                  href="#!"
+                  class="
+                    inline-block
+                    bg-transparent
+                    hover:bg-blue-500
+                    text-blue-300
+                    font-semibold
+                    hover:text-white
+                    py-2
+                    px-4
+                    border border-blue-500
+                    rounded
+                    hover:border-transparent
+                    cursor-pointer
+                  "
+                >
+                  <i class="fa fa-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--========================= FIRST ARTICLE ============================-->
+        <div
+          class="
+            top-auto
+            bottom-0
+            left-0
+            right-0
+            w-full
+            absolute
+            pointer-events-none
+            overflow-hidden
+          "
+          style="height: 70px"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-200 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+      </div>
+      <section class="pb-20 bg-gray-900 -mt-24">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap">
+            <div
+              class="lg:pt-12 pt-6 w-full md:w-6/12 px-4 text-center"
+              data-aos="fade-in-left"
+            >
+              <div
+                class="
+                  relative
+                  flex flex-col
+                  min-w-0
+                  break-words
+                  bg-white
+                  w-full
+                  mb-8
+                  shadow-lg
+                  rounded-lg
+                "
+              >
+                <div class="px-4 py-5 flex-auto rounded">
+                  <div
+                    class="
+                      text-white
+                      p-3
+                      text-center
+                      inline-flex
+                      items-center
+                      justify-center
+                      w-12
+                      h-12
+                      mb-5
+                      shadow-lg
+                      rounded-full
+                      bg-red-400
+                    "
+                  >
+                    <i class="fa fa-award"></i>
+                  </div>
+                  <h6 class="text-xl font-semibold">Awarded Agency</h6>
+                  <p class="mt-2 mb-4">
+                    Estelle Yoga Center, has without doubt been one of the most
+                    awarded Yoga center, and we have also been featured on many
+                    plaforms like forbes,NewYork Times e.t.c
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="pt-6 w-full md:w-6/12 px-4 text-center"
+              data-aos="fade-in-right"
+            >
+              <div
+                class="
+                  relative
+                  flex flex-col
+                  min-w-0
+                  break-words
+                  bg-white
+                  w-full
+                  mb-8
+                  shadow-lg
+                  rounded-lg
+                "
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="
+                      text-white
+                      p-3
+                      text-center
+                      inline-flex
+                      items-center
+                      justify-center
+                      w-12
+                      h-12
+                      mb-5
+                      shadow-lg
+                      rounded-full
+                      bg-green-400
+                    "
+                  >
+                    <i class="fa fa-thumbs-up"></i>
+                  </div>
+                  <h6 class="text-xl font-semibold">Verified Company</h6>
+                  <p class="mt-2 mb-4">
+                    We have also been Verified in different aspect like keeping
+                    up to our words and commitments too
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap items-center mt-32">
+            <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+              <h3
+                class="text-3xl mb-2 font-semibold leading-normal text-blue-300"
+              >
+                Working with us is a pleasure
+              </h3>
+              <p
+                class="text-lg font-light leading-relaxed mt-4 mb-4 text-white"
+              >
+                We are Most Likely Honoured to be Working and helping People all
+                over the world practice and learn Yoga. It is a Life Enhancing
+                Tool.
+              </p>
+              <p
+                class="text-lg font-light leading-relaxed mt-0 mb-4 text-white"
+              >
+                Yoga Apparently comes in Various Forms and We would possibly do
+                our best to take our clients from Zero to Mastery in this
+                Pratice.
+              </p>
+              <a
+                href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+                class="font-bold text-white mt-8"
+                >Read and Learn More about Yoga!</a
+              >
+            </div>
+            <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div
+                class="
+                  relative
+                  flex flex-col
+                  min-w-0
+                  break-words
+                  bg-white
+                  w-full
+                  mb-6
+                  shadow-lg
+                  rounded-lg
+                  bg-pink-600
+                "
+              >
+                <img
+                  alt="..."
+                  src="/assets/img/jared-rice-NTyBbu66_SI-unsplash.jpg"
+                  class="w-full align-middle rounded-t-lg"
+                />
+                <blockquote class="relative p-8 mb-4">
+                  <svg
+                    preserveAspectRatio="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 583 95"
+                    class="absolute left-0 w-full block"
+                    style="height: 95px; top: -94px"
+                  >
+                    <polygon
+                      points="-30,95 583,95 583,65"
+                      class="text-gray-300 fill-current"
+                    ></polygon>
+                  </svg>
+                  <h4 class="text-xl font-bold text-white">
+                    Become Extravaganze
+                  </h4>
+                  <p class="text-md font-light mt-2 text-white">
+                    You get to Experience life and touch the various aspect of
+                    life in the best way ever possible through the Pratices of
+                    Yoga
+                  </p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--==================== ABOUT SECTION ==================================-->
+      <section id="about" class="relative py-20">
+        <div
+          class="
+            bottom-auto
+            top-0
+            left-0
+            right-0
+            w-full
+            absolute
+            pointer-events-none
+            overflow-hidden
+            -mt-20
+          "
+          style="height: 80px"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div
+              class="w-full md:w-4/12 ml-auto mr-auto px-4"
+              data-aos="fade-right"
+            >
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="/assets/img/bruce-mars-gJtDg6WfMlQ-unsplash.jpg"
+              />
+            </div>
+            <div
+              class="w-full md:w-5/12 ml-auto mr-auto px-4"
+              data-aos="fade-left"
+            >
+              <div class="md:pr-12">
+                <small class="text-blue-300 text-2xl"
+                  >About Our Yoga Center</small
+                >
+                <h3 class="text-4xl uppercase font-bold">
+                  Care-Free Yoga Pratices
+                </h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                  Learning Yoga, Comes with a Varieties of Advantages and We do
+                  Assure you that, We Will do our Possible Best so that you
+                  could Experience Yoga to the Fullest. Below are a Few of the
+                  Benefits of Praticing Yoga.
+                </p>
+                <ul class="list-none mt-6">
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div></div>
+                      <div>
+                        <h4 class="text-xl">
+                          Upliftment of Both the Body and Soul
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div></div>
+                      <div>
+                        <h4 class="text-gray-600">
+                          Different Fundametal Lectures
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div></div>
+                      <div>
+                        <h4 class="text-gray-600">Dynamic Upliftment</h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--======================= HERO TEAM SECTION ================================-->
+      </section>
+      <section class="pt-20 pb-48">
+        <div class="container mx-auto px-4">
+          <div class="flex text-center mb-24 justify-center flex-wrap">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold">Here are our heroes</h2>
+              <hr
+                class="
+                  w-50
+                  border-solid
+                  text-gray-700
+                  justify-center
+                  align-middle
+                "
+              />
+              <p class="text-lg leading-relaxed m-4 text-gray-600">
+                Over the past few years since we have been Operating, Below are
+                the Pictures of the superheros behind the success of our Yoga
+                Center.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/karsten-winegeart-gwZ-XSS5EYY-unsplash.jpg"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Ellie GrayMan</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Lead Yoga Instructor
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="
+                        bg-blue-400
+                        text-white
+                        w-8
+                        h-8
+                        rounded-full
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                    >
+                      <i class="fa fa-twitter"></i></button
+                    ><button
+                      class="
+                        bg-blue-600
+                        text-white
+                        w-8
+                        h-8
+                        rounded-full
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                    >
+                      <i class="fa fa-facebook-f"></i></button
+                    ><button
+                      class="
+                        bg-pink-500
+                        text-white
+                        w-8
+                        h-8
+                        rounded-full
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                    >
+                      <i class="fa fa-dribbble"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/patrick-malleret-p-v1DBkTrgo-unsplash.jpg"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Kaille Drought</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Body Perfectionist
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="
+                        bg-red-600
+                        text-white
+                        w-8
+                        h-8
+                        rounded-full
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                    >
+                      <i class="fa fa-google"></i></button
+                    ><button
+                      class="
+                        bg-blue-400
+                        text-white
+                        w-8
+                        h-8
+                        rounded-full
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                    >
+                      <i class="fa fa-twitter"></i></button
+                    ><button
+                      class="
+                        bg-gray-800
+                        text-white
+                        w-8
+                        h-8
+                        rounded-full
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                    >
+                      <i class="fa fa-instagram"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/chalo-garcia-gbFWHLpfC08-unsplash.jpg"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Jenna Kardi</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Founder and CEO
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="
+                        bg-pink-500
+                        text-white
+                        w-8
+                        h-8
+                        rounded-full
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                    >
+                      <i class="fa fa-dribbble"></i></button
+                    ><button
+                      class="
+                        bg-red-600
+                        text-white
+                        w-8
+                        h-8
+                        rounded-full
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                    >
+                      <i class="fab fa-google"></i></button
+                    ><button
+                      class="
+                        bg-blue-400
+                        text-white
+                        w-8
+                        h-8
+                        rounded-full
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                    >
+                      <i class="fa fa-twitter"></i></button
+                    ><button
+                      class="
+                        bg-gray-800
+                        text-white
+                        w-8
+                        h-8
+                        rounded-full
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                    >
+                      <i class="fa fa-instagram"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pb-20 relative block bg-gray-900">
+        <div
+          class="
+            bottom-auto
+            top-0
+            left-0
+            right-0
+            w-full
+            absolute
+            pointer-events-none
+            overflow-hidden
+            -mt-20
+          "
+          style="height: 80px"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-900 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+          <div class="flex flex-wrap text-center justify-center">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold text-blue-300">
+                Sign Up with us
+              </h2>
+              <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
+                Signing Up with us, Can Come with Various Advantages. you can
+                get to Receive the latest information about us and also so much
+                more!
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap mt-12 justify-center">
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <h6 class="text-xl mt-5 font-semibold text-blue-300">
+                Excellent Services
+              </h6>
+              <p class="mt-2 mb-4 text-white">
+                We do give our students the best services we can offer and we do
+                assure them that they are in the best hands also.
+              </p>
+            </div>
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <h5 class="text-xl mt-5 font-semibold text-blue-300">
+                Intellectual Knowledge
+              </h5>
+              <p class="mt-2 mb-4 text-white">
+                We make sure that before any of our students do leave this
+                center, they must be Intellectually Smart.
+              </p>
+            </div>
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <h5 class="text-xl mt-5 font-semibold text-blue-300">
+                Meal time
+              </h5>
+              <p class="mt-2 mb-4 text-white">
+                We tend to make all our students state their allergy, so we know
+                what food tends to be healthy for them and what food isn't.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="relative block py-24 lg:pt-0 bg-gray-900">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+            <div class="w-full lg:w-6/12 px-4">
+              <div
+                class="
+                  relative
+                  flex flex-col
+                  min-w-0
+                  break-words
+                  w-full
+                  mb-6
+                  shadow-lg
+                  rounded-lg
+                  bg-gray-300
+                "
+              >
+                <div class="flex-auto p-5 lg:p-10">
+                  <h4 class="text-2xl font-semibold">Want to work with us?</h4>
+                  <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                    Complete this form and we will get back to you in 24 hours.
+                  </p>
+                  <div class="relative w-full mb-3 mt-8">
+                    <label
+                      class="
+                        block
+                        uppercase
+                        text-gray-700 text-xs
+                        font-bold
+                        mb-2
+                      "
+                      for="full-name"
+                      >Full Name</label
+                    ><input
+                      type="text"
+                      class="
+                        border-0
+                        px-3
+                        py-3
+                        placeholder-gray-400
+                        text-gray-700
+                        bg-white
+                        rounded
+                        text-sm
+                        shadow
+                        focus:outline-none focus:ring
+                        w-full
+                      "
+                      placeholder="Full Name"
+                      style="transition: all 0.15s ease 0s"
+                    />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="
+                        block
+                        uppercase
+                        text-gray-700 text-xs
+                        font-bold
+                        mb-2
+                      "
+                      for="email"
+                      >Email</label
+                    ><input
+                      type="email"
+                      class="
+                        border-0
+                        px-3
+                        py-3
+                        placeholder-gray-400
+                        text-gray-700
+                        bg-white
+                        rounded
+                        text-sm
+                        shadow
+                        focus:outline-none focus:ring
+                        w-full
+                      "
+                      placeholder="Email"
+                      style="transition: all 0.15s ease 0s"
+                    />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="
+                        block
+                        uppercase
+                        text-gray-700 text-xs
+                        font-bold
+                        mb-2
+                      "
+                      for="message"
+                      >Message</label
+                    ><textarea
+                      rows="4"
+                      cols="80"
+                      class="
+                        border-0
+                        px-3
+                        py-3
+                        placeholder-gray-400
+                        text-gray-700
+                        bg-white
+                        rounded
+                        text-sm
+                        shadow
+                        focus:outline-none focus:ring
+                        w-full
+                      "
+                      placeholder="Type a message..."
+                    ></textarea>
+                  </div>
+                  <div class="text-center mt-6">
+                    <button
+                      class="
+                        bg-gray-900
+                        text-white
+                        active:bg-gray-700
+                        text-sm
+                        font-bold
+                        uppercase
+                        px-6
+                        py-3
+                        rounded
+                        shadow
+                        hover:shadow-lg
+                        outline-none
+                        focus:outline-none
+                        mr-1
+                        mb-1
+                      "
+                      type="button"
+                      style="transition: all 0.15s ease 0s"
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+      <div
+        class="
+          bottom-auto
+          top-0
+          left-0
+          right-0
+          w-full
+          absolute
+          pointer-events-none
+          overflow-hidden
+          -mt-20
+        "
+        style="height: 80px"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-gray-300 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+            <h5 class="text-lg mt-0 mb-2 text-gray-700">
+              Find us on any of these platforms, we respond 1-2 business days.
+            </h5>
+            <div class="mt-6">
+              <button
+                class="
+                  bg-white
+                  text-blue-400
+                  shadow-lg
+                  font-normal
+                  h-10
+                  w-10
+                  items-center
+                  justify-center
+                  align-center
+                  rounded-full
+                  outline-none
+                  focus:outline-none
+                  mr-2
+                  p-3
+                "
+                type="button"
+              >
+                <i class="flex fa fa-twitter"></i></button
+              ><button
+                class="
+                  bg-white
+                  text-blue-600
+                  shadow-lg
+                  font-normal
+                  h-10
+                  w-10
+                  items-center
+                  justify-center
+                  align-center
+                  rounded-full
+                  outline-none
+                  focus:outline-none
+                  mr-2
+                  p-3
+                "
+                type="button"
+              >
+                <i class="flex fa fa-facebook-square"></i></button
+              ><button
+                class="
+                  bg-white
+                  text-pink-400
+                  shadow-lg
+                  font-normal
+                  h-10
+                  w-10
+                  items-center
+                  justify-center
+                  align-center
+                  rounded-full
+                  outline-none
+                  focus:outline-none
+                  mr-2
+                  p-3
+                "
+                type="button"
+              >
+                <i class="flex fa fa-dribbble"></i></button
+              ><button
+                class="
+                  bg-white
+                  text-gray-900
+                  shadow-lg
+                  font-normal
+                  h-10
+                  w-10
+                  items-center
+                  justify-center
+                  align-center
+                  rounded-full
+                  outline-none
+                  focus:outline-none
+                  mr-2
+                  p-3
+                "
+                type="button"
+              >
+                <i class="flex fa fa-instagram"></i>
+              </button>
+            </div>
+          </div>
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="flex flex-wrap items-top mb-6">
+              <div class="w-full lg:w-4/12 px-4 ml-auto">
+                <span
+                  class="
+                    block
+                    uppercase
+                    text-gray-600 text-sm
+                    font-semibold
+                    mb-2
+                  "
+                  >Useful Links</span
+                >
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      class="
+                        text-gray-700
+                        hover:text-gray-900
+                        font-semibold
+                        block
+                        pb-2
+                        text-sm
+                      "
+                      href="https://www.creative-tim.com/presentation"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                        text-gray-700
+                        hover:text-gray-900
+                        font-semibold
+                        block
+                        pb-2
+                        text-sm
+                      "
+                      href="#!"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                        text-gray-700
+                        hover:text-gray-900
+                        font-semibold
+                        block
+                        pb-2
+                        text-sm
+                      "
+                      href="#!"
+                      >Github</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                        text-gray-700
+                        hover:text-gray-900
+                        font-semibold
+                        block
+                        pb-2
+                        text-sm
+                      "
+                      href="#!"
+                      >Free Products</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full lg:w-4/12 px-4">
+                <span
+                  class="
+                    block
+                    uppercase
+                    text-gray-600 text-sm
+                    font-semibold
+                    mb-2
+                  "
+                  >Other Resources</span
+                >
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      class="
+                        text-gray-700
+                        hover:text-gray-900
+                        font-semibold
+                        block
+                        pb-2
+                        text-sm
+                      "
+                      href="#!"
+                      >MIT License</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                        text-gray-700
+                        hover:text-gray-900
+                        font-semibold
+                        block
+                        pb-2
+                        text-sm
+                      "
+                      href="#!"
+                      >Terms &amp; Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                        text-gray-700
+                        hover:text-gray-900
+                        font-semibold
+                        block
+                        pb-2
+                        text-sm
+                      "
+                      href="#!"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                        text-gray-700
+                        hover:text-gray-900
+                        font-semibold
+                        block
+                        pb-2
+                        text-sm
+                      "
+                      href="#!"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-400" />
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-gray-600 font-semibold py-1">
+              Copyright © 2021 Power Yoga created by
+              <a
+                href="https://www.creative-tim.com"
+                class="text-gray-600 hover:text-gray-900"
+                >Stephen</a
+              >.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+  <script src="/aos-master/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      delay: 200,
+      duration: 1200,
+      once: false,
+    });
+  </script>
+</html>
